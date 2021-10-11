@@ -1,0 +1,3 @@
+[submodule "themes/fresh-start"]
+	path = themes/fresh-start
+	url = https://github.com/MCWertGaming/hugo-theme-freshstart-updated.git
