@@ -1,0 +1,71 @@
+baseURL: https://leven.dev
+languageCode: en-us
+title: "home | leven.dev"
+theme: fresh-start
+
+params:
+  author: Damon Leven
+  description: "Home page of leven.dev."
+  favicon: /img/favicon.png
+
+
+  searchEngines:
+    - name: Startpage
+      activated: true
+      icon: fas fa-search blue
+      url: https://www.startpage.com/do/search
+    - name: Ecosia
+      activated: true
+      icon: fas fa-tree green
+      url: https://www.ecosia.org/search
+
+  nav:
+    - name: Protonmail
+      icon: fas fa-envelope blue
+      url: https://protonmail.com
+
+    - name: Twitter
+      icon: fab fa-twitter aqua
+      url: https://twitter.com
+    
+    - name: GitHub
+      icon: fab fa-github white
+      url: https://github.com
+
+
+  bookmarks:
+    - group: Projects
+      icon: fas fa-code-branch
+      items:
+        - name: Foxspace
+          url: https://github.com/MCWertGaming/foxspace
+        - name: Foxterm
+          url: https://github.com/MCWertGaming/foxterm
+        - name: Foxcraft
+          url: https://github.com/MCWertGaming/foxcraft
+        - name: FCalc
+          url: https://github.com/MCWertGaming/fcalc
+        - name: Snek
+          url: https://github.com/BlackVyperStudios/snek
+
+    - group: "leven.dev"
+      icon: fas fa-pager
+      items:
+        - name: OpenFoxBlog
+          url: https://openfoxblog.leven.dev
+
+        - name: Damon Leven
+          url: https://damon.leven.dev
+
+        - name: Felix Leven
+          url: https://felix.leven.dev
+    
+    - group: tools
+      icon: fas fa-tools
+      items:
+        - name: Github
+          url: https://github.com
+        - name: Gitlab
+          url: https://gitlab.com
+        - name: Archlinux
+          url: https://archlinux.org
