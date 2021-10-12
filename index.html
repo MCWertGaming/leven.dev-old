@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+	<meta name="generator" content="Hugo 0.88.1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="referrer" content="strict-origin" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>home | leven.dev</title>
+  
+  <meta name="description" content="Home page of leven.dev." />
+   <link rel="icon" href="/img/favicon.png" /> 
+
+  <link rel="stylesheet" href="https://leven.devcss/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+<header>
+  <nav>
+    <div class="nav-left">
+      <ul>
+        
+        <li><a href="https://protonmail.com" title="Protonmail"><i class="fas fa-envelope blue"></i></a></li>
+        
+        <li><a href="https://twitter.com" title="Twitter"><i class="fab fa-twitter aqua"></i></a></li>
+        
+        <li><a href="https://github.com" title="GitHub"><i class="fab fa-github white"></i></a></li>
+        
+      </ul>
+    </div>
+    <div class="nav-right">
+      <ul class="datetime">
+        <li class="date">
+          <i class="far fa-calendar"></i>&nbsp;
+          <span id="current_date"></span>
+        </li>
+        <li class="time">
+          <i class="far fa-clock"></i>&nbsp;
+          <span id="current_time"></span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+
+
+  <section class="search">
+    <h3>search</h3>
+    <div class="searchbox">
+      
+        
+          <form autocomplete="off" method="get" action="https://www.startpage.com/do/search">
+            <i class="fas fa-search blue"></i>
+            <input type="text" name="q">
+          </form>
+        
+      
+        
+          <form autocomplete="off" method="get" action="https://www.ecosia.org/search">
+            <i class="fas fa-tree green"></i>
+            <input type="text" name="q">
+          </form>
+        
+      
+    </div>
+  </section>
+
+
+
+<section class="cards">
+  
+  <div class="card">
+    <h3><i class="fas fa-code-branch"></i> Projects </h3>
+    <ul>
+      
+        
+        <li><a href="https://github.com/MCWertGaming/foxspace">Foxspace</a></li>
+        
+      
+        
+        <li><a href="https://github.com/MCWertGaming/foxterm">Foxterm</a></li>
+        
+      
+        
+        <li><a href="https://github.com/MCWertGaming/foxcraft">Foxcraft</a></li>
+        
+      
+        
+        <li><a href="https://github.com/MCWertGaming/fcalc">FCalc</a></li>
+        
+      
+        
+        <li><a href="https://github.com/BlackVyperStudios/snek">Snek</a></li>
+        
+      
+    </ul>
+  </div>
+  
+  <div class="card">
+    <h3><i class="fas fa-pager"></i> leven.dev </h3>
+    <ul>
+      
+        
+        <li><a href="https://openfoxblog.leven.dev">OpenFoxBlog</a></li>
+        
+      
+        
+        <li><a href="https://damon.leven.dev">Damon Leven</a></li>
+        
+      
+        
+        <li><a href="https://felix.leven.dev">Felix Leven</a></li>
+        
+      
+    </ul>
+  </div>
+  
+  <div class="card">
+    <h3><i class="fas fa-tools"></i> tools </h3>
+    <ul>
+      
+        
+        <li><a href="https://github.com">Github</a></li>
+        
+      
+        
+        <li><a href="https://gitlab.com">Gitlab</a></li>
+        
+      
+        
+        <li><a href="https://archlinux.org">Archlinux</a></li>
+        
+      
+    </ul>
+  </div>
+  
+</section>
+
+
+    </main><script>
+  var timer = setInterval(function() {
+    localTimer();
+  }, 1000);
+
+  function addZero(i) {
+    if (i < 10) {
+      i = "0" + i;
+    }
+    return i;
+  }
+
+  function localTimer() {
+    var today = new Date();
+    var time = addZero(today.getHours()) + ":" + addZero(today.getMinutes()) + ":" + addZero(today.getSeconds());
+    document.getElementById("current_time").innerHTML = time;
+
+    var date = today.getDate()+' . '+(today.getMonth()+1)+' . '+today.getFullYear();
+    document.getElementById("current_date").innerHTML = date;
+}
+</script>
+
+
+</body>
+</html>
