@@ -2,6 +2,7 @@ baseURL: https://leven.dev/
 languageCode: en-us
 title: "home | leven.dev"
 theme: fresh-start
+disableKinds: ["RSS", "taxonomyTerm", "section"]
 
 params:
   author: Damon Leven
