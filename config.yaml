@@ -6,7 +6,7 @@ theme: fresh-start
 params:
   author: Damon Leven
   description: "Home page of leven.dev."
-  favicon: /img/favicon.png
+  favicon: /images/favicon.png
 
 
   searchEngines:
